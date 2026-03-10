@@ -33,7 +33,7 @@
         <p class="eyebrow">Für Führungsteams in Wachstum, Reorganisation oder Nachfolge</p>
         <h1>Wenn Entscheidungen hängen bleiben, braucht Führung wieder Klarheit.</h1>
         <p class="lead">
-          Zito Concept unterstützt Führungsteams dabei, Zuständigkeiten zu klären, Konflikte sauber zu bearbeiten und Entscheidungen wieder in Tagen statt Wochen voranzubringen.
+          Zito Concept hilft Führungsteams, Zuständigkeiten zu klären, Konflikte offen zu bearbeiten und Entscheidungen wieder in Tagen statt Wochen voranzubringen.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#check">20-Minuten-Check buchen</a>
@@ -112,7 +112,7 @@
       <div>
         <p class="section-kicker">Was sich verändert</p>
         <h2>Ziel ist nicht mehr Abstimmung. Ziel ist wieder klare Führung.</h2>
-        <p class="section-intro">Innerhalb von 6 bis 12 Wochen wird sichtbar, wo Entscheidungen stecken, welche Rollen unklar sind und welche Konflikte die Zusammenarbeit blockieren. Daraus entstehen klare Regeln, belastbare Zuständigkeiten und konkrete Vereinbarungen für den Führungsalltag.</p>
+        <p class="section-intro">Innerhalb von 6 bis 12 Wochen wird klar, wo Entscheidungen hängen bleiben, welche Rollen im Alltag nicht tragen und welche Konflikte Zusammenarbeit blockieren. Daraus entstehen klare Regeln, belastbare Zuständigkeiten und verbindliche Vereinbarungen für den Führungsalltag.</p>
       </div>
       <div class="mini-grid results-grid">
         <article>
@@ -139,7 +139,7 @@
       <div>
         <p class="section-kicker">So läuft die Zusammenarbeit ab</p>
         <h2>Kompakt, konkret und auf reale Führungsfälle bezogen</h2>
-        <p class="section-intro">Es geht nicht um Workshop-Inszenierung. Es geht um echte Situationen aus dem Führungsalltag und um Vereinbarungen, die danach tatsächlich tragen.</p>
+        <p class="section-intro">Es geht nicht um Workshop-Routine oder saubere Folien. Es geht um reale Situationen aus dem Führungsalltag und um Vereinbarungen, die danach im Alltag tatsächlich halten.</p>
       </div>
       <div class="steps-grid">
         <article class="step-card">
@@ -180,7 +180,7 @@
     <section class="section proof">
       <div>
         <p class="section-kicker">Beispiel aus der Praxis</p>
-        <h2>Wenn Freigaben hängen bleiben, liegt das Problem selten nur an Tempo</h2>
+        <h2>Wenn Freigaben hängen bleiben, liegt das Problem fast nie nur am Tempo</h2>
       </div>
 
       <div class="case-grid">
@@ -230,7 +230,7 @@
 
         <div class="form-wrapper">
           <h3 class="form-title">Check anfragen</h3>
-          <form class="check-form" onsubmit={(e) => e.preventDefault()}>
+          <form class="check-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
             <label>
               Name und Rolle
               <input name="name_rolle" required />
