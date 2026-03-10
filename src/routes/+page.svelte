@@ -1,8 +1,8 @@
 <svelte:head>
-  <title>Zito Concept | Entscheidungen wieder in Tagen treffen</title>
+  <title>Zito Concept | Führung wieder handlungsfähig machen</title>
   <meta
     name="description"
-    content="Moderation für Führungsteams im Mittelstand (20-500 MA): Rollen klären, Entscheidungsstau reduzieren, Konflikte bearbeiten. 6-12 Wochen mit verbindlichen Outputs."
+    content="Moderation für Führungsteams: Zuständigkeiten klären, Konflikte bearbeiten und Entscheidungen wieder in Tagen statt Wochen voranbringen."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -18,205 +18,262 @@
       <img src="/assets/zito-logo.png" alt="Zito Concept" class="logo-mark" />
       <span class="logo-text">Zito Concept</span>
     </div>
-    <a class="header-cta" href="#check">20-Minuten-Check: Entscheidungsstau lokalisieren</a>
+    <nav class="desktop-nav">
+      <a href="#zusammenarbeit">Zusammenarbeit</a>
+      <a href="#wirkung">Wirkung</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#check">Check buchen</a>
+    </nav>
+    <a class="header-cta" href="#check">20-Minuten-Check buchen</a>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-content">
-        <p class="eyebrow">Für Führungsteams in Wachstum, Reorg oder Nachfolge (20 bis 500 MA), wenn Entscheidungen stocken und Rollen kippen</p>
-        <h1>Entscheidungen wieder in Tagen treffen. Rollen wieder klar führen.</h1>
+        <p class="eyebrow">Für Führungsteams in Wachstum, Reorganisation oder Nachfolge</p>
+        <h1>Wenn Entscheidungen hängen bleiben, braucht Führung wieder Klarheit.</h1>
         <p class="lead">
-          Wir bringen Entscheidungslogik, Rollen und Konflikte in eine führbare Struktur, damit Ihr
-          Führungsteam wieder handlungsfähig wird. Ergebnis nach 6 bis 12 Wochen: weniger
-          Eskalationen, klarere Zuständigkeiten, schnellere Freigaben.
+          Zito Concept unterstützt Führungsteams dabei, Zuständigkeiten zu klären, Konflikte sauber zu bearbeiten und Entscheidungen wieder in Tagen statt Wochen voranzubringen.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#check">20-Minuten-Check buchen</a>
-          <a class="btn btn-ghost" href="#ablauf">Ablauf in 3 Schritten</a>
+          <a class="btn btn-ghost" href="#ablauf">Ablauf ansehen</a>
         </div>
       </div>
 
       <figure class="portrait-card">
-        <img src="/assets/mr-zito.jpeg" alt="Porträt des Coaches von Zito Concept" class="portrait" />
+        <img src="/assets/mr-zito.jpeg" alt="Porträt des Beraters" class="portrait" />
         <figcaption>
           <strong>Zito Concept</strong>
-          <span
-            >Moderation für Führungsteams: Rollen, Entscheidungen, Konflikte. Ohne PowerPoint, mit
-            verbindlichen Outputs.</span
-          >
+          <span>Moderation für Führungsteams. Klar in der Sache, verbindlich in der Umsetzung.</span>
         </figcaption>
       </figure>
 
       <div class="hero-stats">
         <article>
-          <strong>Fallarbeit statt Folien</strong>
-          <span>Wir arbeiten an echten Situationen aus Ihrer letzten Woche.</span>
+          <strong>Klare Entscheidungsregeln</strong>
+          <span>statt Dauerschleifen</span>
         </article>
         <article>
-          <strong>Entscheidungslogik</strong>
-          <span>Wer entscheidet was bis wann. Schriftlich festgehalten und nachgehalten.</span>
+          <strong>Schriftlich geklärte Rollen</strong>
+          <span>und Übergaben</span>
         </article>
         <article>
-          <strong>Session-Outputs</strong>
-          <span>3 konkrete Vereinbarungen pro Termin plus Follow-up in der Folgewoche.</span>
+          <strong>Weniger Eskalationen</strong>
+          <span>im Führungsalltag</span>
         </article>
       </div>
     </section>
 
-    <section class="brand-ribbon" aria-label="Markenhinweis Zito Concept">
-      <img src="/assets/zito-logo.png" alt="Zito Concept" class="ribbon-logo" loading="lazy" />
-      <p>6 bis 12 Wochen, um Entscheidungsstau sichtbar zu reduzieren und Verantwortungen stabil zu machen.</p>
-    </section>
-
-    <section class="section proof">
+    <section id="zusammenarbeit" class="section">
       <div>
-        <p class="section-kicker">Trust & Wirkung</p>
-        <h2>Was sich in den ersten 2 bis 4 Wochen messbar verändert</h2>
+        <h2>Woran Unternehmen die Zusammenarbeit früh merken</h2>
       </div>
-      <ul>
-        <li>
-          Freigaben und Entscheidungen: von Wochen auf Tage, mit klarer Verantwortlichkeit und
-          dokumentierter Entscheidung.
-        </li>
-        <li>
-          Rollen und Übergaben: Zuständigkeiten sind schriftlich geklärt, Übergaben laufen ohne
-          Nachverhandlungen.
-        </li>
-        <li>
-          Konflikte: werden im Team bearbeitet, bevor sie Meetings, Projekte oder Führungskräfte
-          blockieren.
-        </li>
-      </ul>
-
-      <div class="case-grid">
+      <div class="mini-grid">
         <article>
-          <p class="case-title">Fallbeispiel A · Produktionsbetrieb · 120 MA (anonymisiert)</p>
-          <p><strong>Ausgangslage:</strong> Wiederkehrende Eskalationen zwischen Schicht- und Teamleitung.</p>
-          <p><strong>Intervention:</strong> Rollenklärung, Gesprächsleitfaden, moderierte Konfliktsequenzen.</p>
-          <p><strong>Zeitraum:</strong> 8 Wochen.</p>
-          <p><strong>Ergebnis:</strong> Abstimmungen im Führungskreis von 90 auf 45 Minuten, deutlich weniger Eskalationen in Jour-fixe-Terminen.</p>
+          <strong>Entscheidungen werden terminierbar</strong>
+          <span>Freigaben und Zuständigkeiten werden so geklärt, dass Entscheidungen nicht länger zwischen Rollen hängen bleiben.</span>
         </article>
         <article>
-          <p class="case-title">Fallbeispiel B · Dienstleistung · 65 MA (anonymisiert)</p>
-          <p><strong>Ausgangslage:</strong> Freigaben blieben an der Geschäftsführung hängen.</p>
-          <p><strong>Intervention:</strong> Entscheidungsraster, Delegationsregeln, wöchentliches Umsetzungsreview.</p>
-          <p><strong>Zeitraum:</strong> 6 Wochen.</p>
-          <p><strong>Ergebnis:</strong> Standard-Freigaben von 10 auf 4 Tage reduziert, Teamleitungen übernehmen Vorbereitung strukturiert.</p>
+          <strong>Konflikte werden bearbeitet statt vertagt</strong>
+          <span>Spannungen im Führungsteam werden nicht glattgeredet, sondern so bearbeitet, dass Zusammenarbeit wieder möglich wird.</span>
+        </article>
+        <article>
+          <strong>Die Geschäftsführung wird entlastet</strong>
+          <span>Operative Engpässe werden sichtbar gemacht und systematisch aus der Spitze herausgelöst.</span>
         </article>
       </div>
-
-      <blockquote class="proof-quote">
-        „Nach 3 Wochen waren Entscheidungen wieder terminierbar. Wir haben Standard-Freigaben von 10
-        auf 4 Tage reduziert und Eskalationen im Führungskreis spürbar gesenkt.“
-        <span>Geschäftsführung, anonymisiert · Referenzgespräch auf Anfrage</span>
-      </blockquote>
     </section>
 
     <section class="section challenge">
       <div>
-        <p class="section-kicker">Typische Trigger</p>
-        <h2>In diesen Situationen ist die Zusammenarbeit besonders wirksam</h2>
+        <p class="section-kicker">Typische Ausgangslage</p>
+        <h2>Diese Probleme kosten Führungsteams jeden Monat Tempo, Energie und Vertrauen</h2>
+        <p class="section-intro">Die Zusammenarbeit ist oft nicht grundsätzlich kaputt. Sie ist nur an entscheidenden Stellen unscharf geworden. Genau dort entstehen Reibung, Verzögerung und stille Überlastung.</p>
       </div>
-      <ul>
-        <li>Die Geschäftsführung bleibt operativer Engpass im Tagesgeschäft.</li>
-        <li>Zwischen Teamleitungen entstehen wiederkehrende Reibungen und stille Konflikte.</li>
-        <li>Leistungsträger sind fachlich stark, aber führen uneinheitlich oder vermeiden Klartext.</li>
-        <li>Wachstum trifft auf alte Führungsmuster und bremst Entscheidungsgeschwindigkeit.</li>
+      <ul class="problem-list">
+        <li>Entscheidungen werden vorbereitet, aber nicht sauber freigegeben</li>
+        <li>Die Geschäftsführung bleibt im Tagesgeschäft der operative Flaschenhals</li>
+        <li>Zwischen Teamleitungen entstehen wiederkehrende Reibungen</li>
+        <li>Leistungsträger führen fachlich stark, aber uneinheitlich</li>
+        <li>Zuständigkeiten wirken bekannt, sind im Alltag aber nicht belastbar geklärt</li>
+        <li>Konflikte werden vermieden, bis sie Meetings und Projekte blockieren</li>
       </ul>
+      <p class="conclusion-line">Wenn diese Muster länger laufen, wird nicht nur Arbeit langsamer. Führung verliert Verbindlichkeit.</p>
     </section>
 
-    <section class="section method" id="ablauf">
+    <section id="wirkung" class="section effect">
       <div>
-        <p class="section-kicker">Ablauf in 6 bis 12 Wochen</p>
-        <h2>Klarheit schaffen, Konflikte bearbeiten, Führung entlasten</h2>
+        <p class="section-kicker">Was sich verändert</p>
+        <h2>Ziel ist nicht mehr Gespräch. Ziel ist wieder Führbarkeit.</h2>
+        <p class="section-intro">Innerhalb von 6 bis 12 Wochen wird sichtbar, wo Entscheidungen stecken, welche Rollen unklar sind und welche Konflikte die Zusammenarbeit blockieren. Daraus entstehen klare Regeln, belastbare Zuständigkeiten und konkrete Vereinbarungen für den Führungsalltag.</p>
       </div>
-      <div class="mini-grid">
+      <div class="mini-grid results-grid">
         <article>
-          <strong>Kickoff (60 Min)</strong>
-          <span>3 Engpässe, 3 Erfolgskriterien, 1 Entscheidungsregel als Sofortmaßnahme</span>
+          <strong>1. Entscheidungen kommen wieder voran</strong>
+          <span>Es ist klar, wer vorbereitet, wer entscheidet und bis wann eine Entscheidung fallen muss.</span>
         </article>
         <article>
-          <strong>Arbeitsphase (6 bis 10 Wochen)</strong>
-          <span>Rollen- und Entscheidungsraster, Konfliktklärungsformat, Teamvereinbarungen, 2 Reviews im Alltag</span>
+          <strong>2. Rollen werden belastbar statt nur informell verstanden</strong>
+          <span>Schnittstellen, Übergaben und Verantwortungen werden so geklärt, dass weniger nachverhandelt werden muss.</span>
         </article>
         <article>
-          <strong>Review (45 Min)</strong>
-          <span>Was hat sich messbar verändert, was bleibt der Engpass, nächster 30-Tage-Plan</span>
+          <strong>3. Konflikte verlieren ihre Bremswirkung</strong>
+          <span>Schwierige Themen werden nicht länger umkreist, sondern bearbeitet, bevor sie Leistung und Vertrauen beschädigen.</span>
+        </article>
+        <article>
+          <strong>4. Führung wird wieder handlungsfähig</strong>
+          <span>Die Geschäftsführung und Teamleitungen gewinnen Zeit, Klarheit und mehr Verbindlichkeit im Alltag.</span>
+        </article>
+      </div>
+      <p class="effect-summary"><strong>Typische Effekte in den ersten Wochen:</strong> kürzere Abstimmungen, weniger Eskalationen, klarere Freigaben und spürbar weniger Reibungsverluste.</p>
+    </section>
+
+    <section id="ablauf" class="section method">
+      <div>
+        <p class="section-kicker">So läuft die Zusammenarbeit ab</p>
+        <h2>Kompakt, konkret und auf reale Führungsfälle bezogen</h2>
+        <p class="section-intro">Es geht nicht um Workshop-Inszenierung. Es geht um echte Situationen aus dem Führungsalltag und um Vereinbarungen, die danach tatsächlich tragen.</p>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <strong>Standort klären</strong>
+            <span>Im ersten Gespräch werden die zentralen Engpässe, Spannungen und Führungsfragen sichtbar gemacht. Daraus entsteht ein klares Bild: Wo hängt es, was kostet es und wo lohnt der erste Eingriff.</span>
+          </div>
+        </article>
+        <article class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <strong>Rollen, Entscheidungen und Konflikte bearbeiten</strong>
+            <span>In der Arbeitsphase werden konkrete Fälle aus dem Alltag bearbeitet. Zuständigkeiten, Entscheidungswege und schwierige Schnittstellen werden strukturiert geklärt.</span>
+          </div>
+        </article>
+        <article class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <strong>Verbindlichkeit absichern</strong>
+            <span>Die Zusammenarbeit endet nicht bei Einsicht. Ergebnisse werden festgehalten, überprüft und in den Alltag übertragen, damit Führung nicht wieder in alte Muster zurückfällt.</span>
+          </div>
         </article>
       </div>
 
       <div class="deliverables">
-        <p class="deliverables-title">Sie bekommen im Prozess:</p>
+        <p class="deliverables-title">Was Unternehmen im Prozess bekommen:</p>
         <ul>
-          <li>Entscheidungsraster (wer entscheidet was bis wann)</li>
-          <li>Rollen-Canvas für Schnittstellen und Übergaben</li>
-          <li>Konfliktklärungsformat für schwierige Gespräche</li>
-          <li>Verbindliche Teamvereinbarungen mit Review-Rhythmus</li>
-          <li>30-Tage-Plan zur Stabilisierung nach dem Review</li>
+          <li>klare Entscheidungsregeln</li>
+          <li>schriftlich geklärte Rollen und Übergaben</li>
+          <li>Formate für schwierige Gespräche</li>
+          <li>konkrete Teamvereinbarungen</li>
+          <li>einen belastbaren nächsten 30-Tage-Plan</li>
         </ul>
       </div>
+    </section>
+
+    <section class="section proof">
+      <div>
+        <p class="section-kicker">Beispiel aus der Praxis</p>
+        <h2>Wenn Freigaben hängen bleiben, liegt das Problem selten nur an Tempo</h2>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-study">
+          <p class="case-title">Unternehmen mit rund 65 Mitarbeitenden, Dienstleistungsbereich</p>
+          <p>Die Geschäftsführung war in immer mehr operative Freigaben eingebunden. Entscheidungen lagen zu lange, Teamleitungen arbeiteten Vorlagen uneinheitlich zu und Frust stieg auf mehreren Ebenen.</p>
+          <p>In der Zusammenarbeit wurden Entscheidungswege geklärt, Delegationsregeln geschärft und der Umgang mit wiederkehrenden Reibungen im Führungskreis strukturiert bearbeitet.</p>
+          <p><strong>Ergebnis nach 6 Wochen:</strong> Standard-Freigaben wurden deutlich schneller, Zuständigkeiten waren klarer und Teamleitungen übernahmen Vorbereitung verbindlicher.</p>
+        </article>
+      </div>
+
+      <blockquote class="proof-quote">
+        „Nach wenigen Wochen waren Entscheidungen wieder terminierbar. Vor allem war endlich klar, was bei wem liegt und was nicht mehr an der Geschäftsführung hängen bleiben muss.“
+        <span>Referenzgespräch auf Anfrage</span>
+      </blockquote>
     </section>
 
     <section id="check" class="section process">
       <div>
         <p class="section-kicker">Nächster Schritt</p>
-        <h2>20 Minuten. Kostenlos. Klarer Befund, kein Pitch.</h2>
+        <h2>20 Minuten. Kostenlos. Klarer Befund statt Verkaufsgespräch.</h2>
         <p class="check-promise">
-          Sie erhalten im Check: 1) Diagnose Ihres Engpasses in 3 Sätzen, 2) eine Sofortregel für
-          die nächsten 7 Tage, 3) eine klare Empfehlung (Start sinnvoll oder aktuell nicht nötig)
-          als kurze Zusammenfassung per Mail.
+          Im 20-Minuten-Check schildern Sie den Engpass in Ihrem Führungsteam. Sie erhalten eine erste Einschätzung, welche Muster gerade bremsen, welche Sofortregel helfen kann und ob eine Zusammenarbeit sinnvoll ist oder aktuell nicht nötig.
         </p>
       </div>
 
       <div class="check-layout">
         <div class="check-notes">
           <article>
-            <h3>Für wen der Check ist</h3>
+            <h3>Was der Check liefert</h3>
             <ul>
-              <li>Führungsteams mit 20 bis 500 Mitarbeitenden</li>
-              <li>Wenn Entscheidungsstau, Rollenchaos oder Konflikte Leistung bremsen</li>
-              <li>Wenn Umsetzung in 6 bis 12 Wochen realistisch gewollt ist</li>
+              <li>eine klare Einordnung des Engpasses</li>
+              <li>eine erste Sofortregel für die nächsten Tage</li>
+              <li>eine ehrliche Empfehlung zum weiteren Vorgehen</li>
             </ul>
           </article>
           <article>
-            <h3>Nicht passend, wenn …</h3>
+            <h3>Für wen passend</h3>
             <ul>
-              <li>nur ein einmaliger Motivationsvortrag gesucht wird</li>
-              <li>keine Bereitschaft zu klaren Verantwortlichkeiten besteht</li>
-              <li>Konflikte ausschließlich "wegmoderiert" statt bearbeitet werden sollen</li>
+              <li>Führungsteams mit etwa 20 bis 500 Mitarbeitenden</li>
+              <li>Wachstum, Reorganisation oder Nachfolge als Auslöser oder Verstärker</li>
+              <li>Wunsch nach Klarheit, Verbindlichkeit und realer Umsetzung</li>
             </ul>
           </article>
-          <ol>
-            <li><span>1</span>Sie schildern den Engpass in 3 Minuten.</li>
-            <li><span>2</span>Sie erhalten 2 bis 3 Hypothesen plus erste Regeln/Interventionen.</li>
-            <li><span>3</span>Wenn es passt: Vorschlag für 6 bis 12 Wochen Vorgehen.</li>
-          </ol>
+          <article>
+            <h3>Nicht passend, wenn</h3>
+            <ul>
+              <li>nur ein Motivationsimpuls gesucht wird</li>
+              <li>Verantwortung bewusst unklar bleiben soll</li>
+              <li>Konflikte nur beruhigt, aber nicht bearbeitet werden sollen</li>
+            </ul>
+          </article>
         </div>
 
-        <form class="check-form" action="mailto:kontakt@zito-concept.de" method="post" enctype="text/plain">
-          <label>
-            Name und Rolle
-            <input name="name_rolle" required placeholder="z. B. Max Mustermann, Geschäftsführung" />
-          </label>
-          <label>
-            Unternehmen / Teamgröße
-            <input name="unternehmen" required placeholder="z. B. Metallbau Müller, 80 MA" />
-          </label>
-          <label>
-            Wichtigster Führungsengpass
-            <textarea
-              name="engpass"
-              rows="3"
-              required
-              placeholder="z. B. Entscheidungen werden nicht rechtzeitig freigegeben"
-            ></textarea>
-          </label>
-          <button type="submit" class="btn btn-primary btn-wide">Check starten und Termin vorschlagen</button>
-        </form>
+        <div class="form-wrapper">
+          <h3 class="form-title">Check anfragen</h3>
+          <form class="check-form" onsubmit={(e) => e.preventDefault()}>
+            <label>
+              Name und Rolle
+              <input name="name_rolle" required />
+            </label>
+            <label>
+              Unternehmen / Teamgröße
+              <input name="unternehmen" required />
+            </label>
+            <label>
+              Wichtigster Führungsengpass
+              <textarea name="engpass" rows="3" required></textarea>
+            </label>
+            <label>
+              E-Mail
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Telefonnummer <span>(optional)</span>
+              <input type="tel" name="telefon" />
+            </label>
+            <button type="submit" class="btn btn-primary btn-wide">Check anfragen und Termin vorschlagen</button>
+            <p class="form-note">Sie erhalten eine kurze Rückmeldung per Mail mit einem Vorschlag für das Erstgespräch.</p>
+          </form>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <strong>Zito Concept</strong>
+        <p>Begleitung für Führungsteams, wenn Entscheidungen, Rollen und Zusammenarbeit unter Druck geraten.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#kontakt">Kontakt</a>
+        <a href="mailto:kontakt@zito-concept.de">E-Mail</a>
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
 </div>
 
 <style>
@@ -277,6 +334,35 @@
     letter-spacing: 0.02em;
   }
 
+  .desktop-nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .desktop-nav a {
+    color: oklch(0.3 0.02 80);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 150ms;
+  }
+
+  .desktop-nav a:hover {
+    color: oklch(0.1 0.01 80);
+  }
+
+  .header-cta {
+    color: oklch(0.22 0.03 80);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid oklch(0.8 0.016 84);
+    border-radius: 999px;
+    padding: 0.5rem 0.85rem;
+    background: white;
+  }
+
   .hero {
     margin-top: 2rem;
     border: 1px solid oklch(0.84 0.016 85);
@@ -310,14 +396,14 @@
     line-height: 1.1;
     margin-top: 0.6rem;
     font-size: clamp(2rem, 4.8vw, 3.5rem);
-    max-width: 14ch;
+    max-width: 16ch;
   }
 
   h2 {
     line-height: 1.16;
     margin-top: 0.6rem;
     font-size: clamp(1.42rem, 3vw, 2.1rem);
-    max-width: 24ch;
+    max-width: 26ch;
   }
 
   h3 {
@@ -329,6 +415,13 @@
     margin: 0.9rem 0 0;
     max-width: 60ch;
     font-size: clamp(1rem, 1.45vw, 1.1rem);
+  }
+
+  .section-intro {
+    margin: 1rem 0 0;
+    max-width: 65ch;
+    font-size: 1.05rem;
+    color: oklch(0.3 0.02 80);
   }
 
   .hero-actions {
@@ -397,24 +490,13 @@
     background: oklch(0.995 0.003 95);
   }
 
-  .header-cta {
-    color: oklch(0.22 0.03 80);
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.9rem;
-    border: 1px solid oklch(0.8 0.016 84);
-    border-radius: 999px;
-    padding: 0.5rem 0.85rem;
-    background: white;
-  }
-
   .hero-stats,
   .mini-grid,
   .case-grid {
     margin-top: 0.35rem;
     display: grid;
     gap: 0.7rem;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-column: 1 / -1;
   }
 
@@ -422,7 +504,7 @@
   .mini-grid article,
   .case-grid article,
   .check-notes article {
-    padding: 0.95rem;
+    padding: 1.2rem;
     border-radius: 0.9rem;
     background: white;
     border: 1px solid oklch(0.86 0.014 85);
@@ -441,96 +523,108 @@
     color: oklch(0.36 0.02 80);
   }
 
-  .brand-ribbon {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.9rem;
-    padding: 0.75rem 0.95rem;
-    border-radius: 999px;
-    border: 1px solid oklch(0.86 0.014 85);
-    background: white;
-  }
-
-  .ribbon-logo {
-    width: 7.2rem;
-    height: 1.6rem;
-    object-fit: contain;
-    object-position: left center;
-    flex: none;
-  }
-
-  .brand-ribbon p {
-    margin: 0;
-    font-size: 0.93rem;
-    color: oklch(0.31 0.02 80);
-  }
-
   .section {
     margin-top: 1.2rem;
     border-radius: 1.2rem;
     border: 1px solid oklch(0.86 0.014 85);
-    padding: clamp(1.15rem, 2.4vw, 1.9rem);
+    padding: clamp(1.5rem, 3vw, 2.5rem);
     background: oklch(0.995 0.003 95 / 0.96);
   }
 
-  .section ul,
-  .process ol {
-    margin: 1rem 0 0;
+  .problem-list {
+    margin: 1.5rem 0 0;
     padding: 0;
     list-style: none;
     display: grid;
     gap: 0.65rem;
   }
 
-  .section li,
-  .process li,
+  .problem-list li,
   .deliverables li {
-    padding: 0.8rem 0.95rem;
+    padding: 0.8rem 1rem;
     border: 1px solid oklch(0.86 0.014 85);
     border-radius: 0.8rem;
     background: white;
+    position: relative;
+    padding-left: 2.2rem;
   }
 
-  .case-title {
-    margin: 0 0 0.35rem;
-    font-weight: 700;
-    font-size: 0.93rem;
-    font-family: 'Manrope', system-ui, sans-serif;
+  .problem-list li::before {
+    content: "•";
+    position: absolute;
+    left: 1rem;
+    color: oklch(0.56 0.14 35);
+    font-weight: bold;
   }
 
-  .case-grid p {
-    margin: 0.2rem 0;
-    font-size: 0.9rem;
-    color: oklch(0.3 0.018 80);
-  }
-
-  .proof-quote {
-    margin: 0.8rem 0 0;
-    padding: 0.9rem 1rem;
-    border-left: 4px solid oklch(0.58 0.14 35);
-    border-radius: 0.7rem;
-    background: oklch(0.99 0.004 92);
+  .conclusion-line {
+    margin-top: 1.5rem;
     font-weight: 600;
-    color: oklch(0.24 0.02 80);
+    font-size: 1.05rem;
+    padding: 1rem;
+    background: oklch(0.95 0.01 80);
+    border-radius: 0.8rem;
+    color: oklch(0.2 0.03 72);
   }
 
-  .proof-quote span {
+  .effect-summary {
+    margin-top: 1.5rem;
+    font-size: 1.05rem;
+    padding: 1rem;
+    background: oklch(0.99 0.004 90);
+    border: 1px solid oklch(0.84 0.016 85);
+    border-radius: 0.8rem;
+  }
+
+  .steps-grid {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .step-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem;
+    border-radius: 0.9rem;
+    background: white;
+    border: 1px solid oklch(0.86 0.014 85);
+  }
+
+  .step-num {
+    width: 2.5rem;
+    height: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: white;
+    background: oklch(0.56 0.14 35);
+    flex: none;
+  }
+
+  .step-content strong {
     display: block;
-    margin-top: 0.45rem;
-    font-size: 0.84rem;
-    font-weight: 700;
-    color: oklch(0.38 0.016 80);
+    font-size: 1.05rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .step-content span {
+    font-size: 0.95rem;
+    color: oklch(0.3 0.02 80);
   }
 
   .deliverables {
-    margin-top: 0.8rem;
+    margin-top: 1.5rem;
   }
 
   .deliverables-title {
-    margin: 0 0 0.55rem;
+    margin: 0 0 0.8rem;
     font-weight: 800;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .deliverables ul {
@@ -538,31 +632,71 @@
     padding: 0;
     list-style: none;
     display: grid;
-    gap: 0.55rem;
+    gap: 0.65rem;
+  }
+
+  .deliverables li::before {
+    content: "✓";
+    position: absolute;
+    left: 0.9rem;
+    color: oklch(0.56 0.14 35);
+    font-weight: bold;
+  }
+
+  .case-title {
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+    font-size: 1.05rem;
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .case-study p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: oklch(0.3 0.018 80);
+  }
+
+  .proof-quote {
+    margin: 1.2rem 0 0;
+    padding: 1.2rem 1.5rem;
+    border-left: 4px solid oklch(0.58 0.14 35);
+    border-radius: 0.7rem;
+    background: oklch(0.99 0.004 92);
+    font-weight: 600;
+    color: oklch(0.24 0.02 80);
+    font-size: 1.05rem;
+  }
+
+  .proof-quote span {
+    display: block;
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: oklch(0.38 0.016 80);
   }
 
   .check-promise {
-    margin: 0.7rem 0 0;
-    font-size: 0.95rem;
+    margin: 1rem 0 0;
+    font-size: 1.05rem;
     max-width: 78ch;
     color: oklch(0.29 0.02 80);
   }
 
   .check-layout {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: grid;
-    gap: 0.8rem;
-    grid-template-columns: 1.1fr 1fr;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
     align-items: start;
   }
 
   .check-notes {
     display: grid;
-    gap: 0.7rem;
+    gap: 1rem;
   }
 
   .check-notes ul {
-    margin: 0;
+    margin: 0.5rem 0 0;
     list-style: none;
     padding: 0;
     display: grid;
@@ -571,44 +705,47 @@
 
   .check-notes li {
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 1.2rem;
   }
 
-  .process li {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    font-weight: 600;
+  .check-notes li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: oklch(0.56 0.14 35);
   }
 
-  .process span {
-    width: 1.8rem;
-    aspect-ratio: 1;
-    border-radius: 999px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.86rem;
-    color: white;
-    background: oklch(0.56 0.14 35);
-    flex: none;
+  .form-wrapper {
+    background: white;
+    border: 1px solid oklch(0.86 0.014 85);
+    border-radius: 1.2rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px -10px oklch(0 0 0 / 0.05);
+  }
+
+  .form-title {
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .check-form {
     display: grid;
-    gap: 0.75rem;
-    background: white;
-    border: 1px solid oklch(0.86 0.014 85);
-    border-radius: 0.9rem;
-    padding: 0.95rem;
+    gap: 1rem;
   }
 
   .check-form label {
     display: grid;
-    gap: 0.35rem;
-    font-size: 0.88rem;
+    gap: 0.4rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: oklch(0.28 0.024 80);
+  }
+
+  .check-form label span {
+    font-weight: 400;
+    color: oklch(0.5 0.02 80);
   }
 
   input,
@@ -616,22 +753,76 @@
     width: 100%;
     border: 1px solid oklch(0.84 0.016 85);
     border-radius: 0.7rem;
-    padding: 0.7rem 0.8rem;
+    padding: 0.8rem 1rem;
     font: inherit;
     background: white;
     color: oklch(0.22 0.02 80);
+    transition: border-color 150ms, box-shadow 150ms;
   }
 
   input:focus,
   textarea:focus {
-    outline: 2px solid oklch(0.65 0.13 45 / 0.35);
-    outline-offset: 1px;
+    outline: none;
     border-color: oklch(0.67 0.11 45);
+    box-shadow: 0 0 0 3px oklch(0.65 0.13 45 / 0.15);
   }
 
   .btn-wide {
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     width: 100%;
+  }
+
+  .form-note {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+    color: oklch(0.4 0.02 80);
+    text-align: center;
+  }
+
+  .site-footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    background: oklch(0.95 0.01 80);
+    border: 1px solid oklch(0.86 0.014 85);
+  }
+
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .footer-brand strong {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.2rem;
+    color: oklch(0.2 0.03 72);
+  }
+
+  .footer-brand p {
+    margin: 0.5rem 0 0;
+    max-width: 40ch;
+    font-size: 0.9rem;
+    color: oklch(0.3 0.02 80);
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: oklch(0.3 0.02 80);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .footer-links a:hover {
+    color: oklch(0.1 0.01 80);
+    text-decoration: underline;
   }
 
   @media (max-width: 940px) {
@@ -646,6 +837,12 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none;
+    }
+  }
+
   @media (max-width: 740px) {
     .site-header {
       border-radius: 1rem;
@@ -656,14 +853,13 @@
       display: none;
     }
 
-    .brand-ribbon {
-      border-radius: 1rem;
-      flex-direction: column;
-      align-items: flex-start;
+    .site-footer {
+      padding: 1.5rem;
     }
-
-    .ribbon-logo {
-      width: 8.3rem;
+    
+    .footer-top {
+      flex-direction: column;
+      gap: 1.5rem;
     }
   }
 
@@ -716,14 +912,19 @@
       border-radius: 1rem;
     }
 
-    .section li,
-    .process li,
+    .problem-list li,
     .deliverables li {
       padding: 0.72rem 0.78rem;
+      padding-left: 2rem;
     }
 
-    .check-form {
-      padding: 0.8rem;
+    .step-card {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .form-wrapper {
+      padding: 1rem;
     }
   }
 
