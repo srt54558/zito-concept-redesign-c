@@ -41,14 +41,6 @@
         </div>
       </div>
 
-      <figure class="portrait-card">
-        <img src="/assets/mr-zito.jpeg" alt="Porträt des Beraters" class="portrait" />
-        <figcaption>
-          <strong>Zito Concept</strong>
-          <span>Moderation für Führungsteams. Klar in der Sache, verbindlich in der Umsetzung.</span>
-        </figcaption>
-      </figure>
-
       <div class="hero-stats">
         <article>
           <strong>Klare Entscheidungsregeln</strong>
@@ -63,6 +55,11 @@
           <span>im Führungsalltag</span>
         </article>
       </div>
+
+      <figure class="portrait-card">
+        <img src="/assets/mr-zito.jpeg" alt="Porträt des Beraters" class="portrait" />
+        
+      </figure>
     </section>
 
     <section id="zusammenarbeit" class="section">
@@ -82,6 +79,14 @@
           <strong>Die Geschäftsführung wird entlastet</strong>
           <span>Operative Engpässe werden sichtbar gemacht und systematisch aus der Spitze herausgelöst.</span>
         </article>
+      </div>
+    </section>
+
+    
+    <section class="section trust-person">
+      <div>
+        <h2>Warum Unternehmen Zito Concept holen</h2>
+        <p class="section-intro">Nicht für Motivationsimpulse, sondern wenn Führung im Alltag wieder klar werden muss. Zito Concept arbeitet mit realen Fällen aus dem Führungsalltag, benennt Spannungen offen und übersetzt sie in klare Zuständigkeiten, Entscheidungen und verbindliche nächste Schritte.</p>
       </div>
     </section>
 
@@ -105,7 +110,7 @@
     <section id="wirkung" class="section effect">
       <div>
         <p class="section-kicker">Was sich verändert</p>
-        <h2>Ziel ist nicht mehr Gespräch. Ziel ist wieder Führbarkeit.</h2>
+        <h2>Ziel ist nicht mehr Abstimmung. Ziel ist wieder klare Führung.</h2>
         <p class="section-intro">Innerhalb von 6 bis 12 Wochen wird sichtbar, wo Entscheidungen stecken, welche Rollen unklar sind und welche Konflikte die Zusammenarbeit blockieren. Daraus entstehen klare Regeln, belastbare Zuständigkeiten und konkrete Vereinbarungen für den Führungsalltag.</p>
       </div>
       <div class="mini-grid results-grid">
@@ -446,17 +451,6 @@
     border-radius: 0.7rem;
   }
 
-  figcaption {
-    margin-top: 0.65rem;
-    display: grid;
-    gap: 0.15rem;
-  }
-
-  figcaption span {
-    color: oklch(0.36 0.02 80);
-    font-size: 0.88rem;
-  }
-
   .btn {
     display: inline-flex;
     align-items: center;
@@ -490,7 +484,33 @@
     background: oklch(0.995 0.003 95);
   }
 
-  .hero-stats,
+  
+  .hero-stats {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    flex-wrap: wrap;
+  }
+  .hero-stats article {
+    flex: 1 1 150px;
+    padding: 0.8rem 1rem;
+    border-radius: 0.7rem;
+    background: transparent;
+    border: none;
+    border-left: 3px solid oklch(0.8 0.016 84);
+  }
+  .hero-stats strong {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.1rem;
+    color: oklch(0.2 0.03 72);
+  }
+  .hero-stats span {
+    font-size: 0.85rem;
+    color: oklch(0.4 0.02 80);
+  }
+
   .mini-grid,
   .case-grid {
     margin-top: 0.35rem;
@@ -500,7 +520,6 @@
     grid-column: 1 / -1;
   }
 
-  .hero-stats article,
   .mini-grid article,
   .case-grid article,
   .check-notes article {
@@ -510,14 +529,12 @@
     border: 1px solid oklch(0.86 0.014 85);
   }
 
-  .hero-stats strong,
   .mini-grid strong {
     display: block;
     margin-bottom: 0.2rem;
     font-size: 1rem;
   }
 
-  .hero-stats span,
   .mini-grid span {
     font-size: 0.92rem;
     color: oklch(0.36 0.02 80);
