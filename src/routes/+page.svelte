@@ -85,6 +85,7 @@
     
     <section class="section trust-person">
       <div>
+        <p class="section-kicker">Arbeitsweise</p>
         <h2>Warum Unternehmen Zito Concept holen</h2>
         <p class="section-intro">Nicht für Motivationsimpulse, sondern wenn Führung im Alltag wieder klar werden muss. Zito Concept arbeitet mit realen Fällen aus dem Führungsalltag, benennt Spannungen offen und übersetzt sie in klare Zuständigkeiten, Entscheidungen und verbindliche nächste Schritte.</p>
       </div>
@@ -94,7 +95,7 @@
       <div>
         <p class="section-kicker">Typische Ausgangslage</p>
         <h2>Diese Probleme kosten Führungsteams jeden Monat Tempo, Energie und Vertrauen</h2>
-        <p class="section-intro">Die Zusammenarbeit ist oft nicht grundsätzlich kaputt. Sie ist nur an entscheidenden Stellen unscharf geworden. Genau dort entstehen Reibung, Verzögerung und stille Überlastung.</p>
+        <p class="section-intro">Meist ist nicht das ganze Führungsteam das Problem. Aber an entscheidenden Stellen ist unklar geworden, wer führt, wer entscheidet und wer etwas sauber übergibt. Genau dort entstehen Reibung, Verzögerung und stille Überlastung.</p>
       </div>
       <ul class="problem-list">
         <li>Entscheidungen werden vorbereitet, aber nicht sauber freigegeben</li>
@@ -202,7 +203,7 @@
         <p class="section-kicker">Nächster Schritt</p>
         <h2>20 Minuten. Kostenlos. Klarer Befund statt Verkaufsgespräch.</h2>
         <p class="check-promise">
-          Im 20-Minuten-Check schildern Sie den Engpass in Ihrem Führungsteam. Sie erhalten eine erste Einschätzung, welche Muster gerade bremsen, welche Sofortregel helfen kann und ob eine Zusammenarbeit sinnvoll ist oder aktuell nicht nötig.
+          Im 20-Minuten-Check schildern Sie den Engpass in Ihrem Führungsteam. Sie erhalten eine erste Einschätzung, eine mögliche Sofortregel und eine klare Empfehlung, ob Zusammenarbeit aktuell sinnvoll ist.
         </p>
       </div>
 
@@ -216,14 +217,7 @@
               <li>eine ehrliche Empfehlung zum weiteren Vorgehen</li>
             </ul>
           </article>
-          <article>
-            <h3>Für wen passend</h3>
-            <ul>
-              <li>Führungsteams mit etwa 20 bis 500 Mitarbeitenden</li>
-              <li>Wachstum, Reorganisation oder Nachfolge als Auslöser oder Verstärker</li>
-              <li>Wunsch nach Klarheit, Verbindlichkeit und realer Umsetzung</li>
-            </ul>
-          </article>
+          
           <article>
             <h3>Nicht passend, wenn</h3>
             <ul>
