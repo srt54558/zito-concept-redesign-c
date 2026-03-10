@@ -226,6 +226,13 @@
     background: linear-gradient(180deg, oklch(0.995 0.003 85), oklch(0.976 0.008 75));
     color: oklch(0.23 0.02 80);
     line-height: 1.6;
+    overflow-x: clip;
+  }
+
+  :global(*),
+  :global(*::before),
+  :global(*::after) {
+    box-sizing: border-box;
   }
 
   .page-shell {
@@ -362,10 +369,12 @@
     align-items: center;
     justify-content: center;
     min-height: 2.85rem;
-    padding: 0 1.1rem;
+    padding: 0.55rem 1.1rem;
     border-radius: 999px;
     font-weight: 700;
     text-decoration: none;
+    text-align: center;
+    line-height: 1.25;
     transition: transform 150ms ease, box-shadow 180ms ease;
     border: none;
     cursor: pointer;
@@ -405,7 +414,7 @@
     margin-top: 0.35rem;
     display: grid;
     gap: 0.7rem;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-column: 1 / -1;
   }
 
@@ -567,7 +576,7 @@
 
   .process li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0.75rem;
     font-weight: 600;
   }
@@ -655,6 +664,81 @@
 
     .ribbon-logo {
       width: 8.3rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .page-shell {
+      padding: 0.75rem 0.65rem 3rem;
+    }
+
+    .site-header {
+      padding: 0.7rem 0.8rem;
+      gap: 0.6rem;
+    }
+
+    .logo-wrap {
+      gap: 0.5rem;
+      min-width: 0;
+    }
+
+    .logo-text {
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      margin-top: 1.1rem;
+      border-radius: 1.2rem;
+      padding: 1rem 0.9rem;
+      gap: 0.95rem;
+    }
+
+    h1 {
+      font-size: clamp(1.72rem, 10.2vw, 2.25rem);
+      max-width: none;
+    }
+
+    .lead {
+      font-size: 0.97rem;
+    }
+
+    .hero-actions {
+      grid-template-columns: 1fr;
+      display: grid;
+    }
+
+    .hero-actions .btn {
+      width: 100%;
+    }
+
+    .section {
+      padding: 1rem 0.9rem;
+      border-radius: 1rem;
+    }
+
+    .section li,
+    .process li,
+    .deliverables li {
+      padding: 0.72rem 0.78rem;
+    }
+
+    .check-form {
+      padding: 0.8rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .logo-text {
+      display: none;
+    }
+
+    .logo-mark {
+      width: 1.95rem;
+      height: 1.95rem;
+    }
+
+    .btn {
+      font-size: 0.92rem;
     }
   }
 </style>
