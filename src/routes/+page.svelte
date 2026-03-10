@@ -203,7 +203,7 @@
         <p class="section-kicker">Nächster Schritt</p>
         <h2>20 Minuten. Kostenlos. Klarer Befund statt Verkaufsgespräch.</h2>
         <p class="check-promise">
-          Im 20-Minuten-Check schildern Sie den Engpass in Ihrem Führungsteam. Sie erhalten eine erste Einschätzung, eine mögliche Sofortregel und eine klare Empfehlung, ob Zusammenarbeit aktuell sinnvoll ist.
+          Im 20-Minuten-Check schildern Sie den Engpass in Ihrem Führungsteam. Sie erhalten eine erste Einschätzung, eine mögliche Sofortregel und eine klare Empfehlung, ob eine Zusammenarbeit aktuell sinnvoll ist.
         </p>
       </div>
 
