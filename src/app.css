@@ -157,6 +157,7 @@
     border: 1px solid oklch(0.84 0.016 85);
     background: oklch(0.99 0.004 90);
     padding: 0.7rem;
+    align-self: start;
   }
 
   .portrait {
@@ -164,6 +165,17 @@
     aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 0.7rem;
+  }
+
+  @media (min-width: 941px) {
+    .portrait-card {
+      width: min(100%, 295px);
+      justify-self: end;
+    }
+
+    .portrait {
+      max-height: 370px;
+    }
   }
 
   .btn {
