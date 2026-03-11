@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Manrope', system-ui, sans-serif;
     background: linear-gradient(180deg, oklch(0.995 0.003 85), oklch(0.976 0.008 75));
-    color: oklch(0.23 0.02 80);
+    color: #1a2a30;
     line-height: 1.6;
     overflow-x: clip;
   }
@@ -61,7 +61,7 @@
   }
 
   .desktop-nav a {
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -73,7 +73,7 @@
   }
 
   .header-cta {
-    color: oklch(0.22 0.03 80);
+    color: #1a2a30;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.9rem;
@@ -108,7 +108,7 @@
   h2,
   h3 {
     font-family: 'Playfair Display', Georgia, serif;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
     margin: 0;
   }
 
@@ -141,7 +141,7 @@
     margin: 1rem 0 0;
     max-width: 65ch;
     font-size: 1.05rem;
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
   }
 
   .hero-actions {
@@ -194,7 +194,7 @@
   }
 
   .btn-ghost {
-    color: oklch(0.24 0.025 78);
+    color: #1a2a30;
     border: 1px solid oklch(0.8 0.016 84);
     background: oklch(0.995 0.003 95);
   }
@@ -233,11 +233,11 @@
     display: block;
     font-size: 0.95rem;
     margin-bottom: 0.1rem;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
   }
   .hero-stats span {
     font-size: 0.85rem;
-    color: oklch(0.4 0.02 80);
+    color: #586b73;
   }
 
   .mini-grid,
@@ -266,7 +266,7 @@
 
   .mini-grid span {
     font-size: 0.92rem;
-    color: oklch(0.36 0.02 80);
+    color: #2b3a42;
   }
 
   .section {
@@ -310,7 +310,7 @@
     padding: 1rem;
     background: oklch(0.95 0.01 80);
     border-radius: 0.8rem;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
   }
 
   .effect-summary {
@@ -379,12 +379,12 @@
     font-size: 1.15rem;
     margin-bottom: 0.5rem;
     font-family: 'Playfair Display', Georgia, serif;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
   }
 
   .step-content span {
     font-size: 0.95rem;
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
     line-height: 1.5;
   }
 
@@ -424,7 +424,7 @@
   .case-study p {
     margin: 0.5rem 0;
     font-size: 0.95rem;
-    color: oklch(0.3 0.018 80);
+    color: #2b3a42;
   }
 
   .proof-quote {
@@ -437,7 +437,7 @@
     position: relative;
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 600;
-    color: oklch(0.18 0.03 70);
+    color: #1a2a30;
     font-size: clamp(1.4rem, 2.5vw, 1.8rem);
     line-height: 1.4;
     text-align: center;
@@ -461,7 +461,7 @@
     font-family: 'Manrope', system-ui, sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
-    color: oklch(0.4 0.02 80);
+    color: #586b73;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -470,7 +470,7 @@
     margin: 1rem 0 0;
     font-size: 1.05rem;
     max-width: 78ch;
-    color: oklch(0.29 0.02 80);
+    color: #1a2a30;
   }
 
   .check-layout {
@@ -531,12 +531,12 @@
     gap: 0.4rem;
     font-size: 0.9rem;
     font-weight: 700;
-    color: oklch(0.28 0.024 80);
+    color: #1a2a30;
   }
 
   .check-form label span {
     font-weight: 400;
-    color: oklch(0.5 0.02 80);
+    color: #7b8e96;
   }
 
   input,
@@ -547,7 +547,7 @@
     padding: 0.8rem 1rem;
     font: inherit;
     background: white;
-    color: oklch(0.22 0.02 80);
+    color: #1a2a30;
     transition: border-color 150ms, box-shadow 150ms;
   }
 
@@ -566,7 +566,7 @@
   .form-note {
     margin: 0.5rem 0 0;
     font-size: 0.85rem;
-    color: oklch(0.4 0.02 80);
+    color: #586b73;
     text-align: center;
   }
 
@@ -588,14 +588,14 @@
   .footer-brand strong {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.2rem;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
   }
 
   .footer-brand p {
     margin: 0.5rem 0 0;
     max-width: 40ch;
     font-size: 0.9rem;
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
   }
 
   .footer-links {
@@ -605,7 +605,7 @@
   }
 
   .footer-links a {
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -794,19 +794,19 @@
 
   .vn-card.vorher .vn-label {
     background: oklch(0.9 0.01 85);
-    color: oklch(0.4 0.02 80);
+    color: #586b73;
   }
 
   .vn-card.nachher .vn-label {
     background: oklch(0.88 0.04 140);
-    color: oklch(0.25 0.05 140);
+    color: #1a2a30;
   }
 
   .vn-card h4 {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.2rem;
     margin: 0 0 0.8rem 0;
-    color: oklch(0.2 0.03 72);
+    color: #1a2a30;
   }
 
   .vn-card ul {
@@ -819,7 +819,7 @@
 
   .vn-card li {
     font-size: 0.95rem;
-    color: oklch(0.3 0.02 80);
+    color: #2b3a42;
     position: relative;
     padding-left: 1.2rem;
   }
@@ -828,7 +828,7 @@
     content: "✕";
     position: absolute;
     left: 0;
-    color: oklch(0.6 0.1 20);
+    color: #a84242;
     font-size: 0.8rem;
     top: 0.15rem;
   }
@@ -837,7 +837,7 @@
     content: "✓";
     position: absolute;
     left: 0;
-    color: oklch(0.4 0.1 140);
+    color: #586b73;
     font-size: 0.9rem;
     top: 0.1rem;
   }
@@ -851,7 +851,7 @@
     border-radius: 999px;
     background: white;
     border: 1px solid oklch(0.86 0.014 85);
-    color: oklch(0.5 0.02 80);
+    color: #7b8e96;
     flex-shrink: 0;
     box-shadow: 0 4px 10px -4px oklch(0 0 0 / 0.1);
   }
